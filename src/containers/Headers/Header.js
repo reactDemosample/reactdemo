@@ -9,12 +9,14 @@ const Header = () => {
         <header>
             <nav>
                 <ul>
-                    <li> Students </li>
-                    <li> Add Students </li>
-                    <li> Selected Students </li>
+                    <li>  <Link to="/students">Students</Link>  </li>
+                    <li> <Link to="/addstudent"> Add Students</Link> </li>
+                    <li> <Link to="/createpost">Selected Students</Link> </li>
                 </ul>
             </nav>
         </header>
+
+
     );
 }
 

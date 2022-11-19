@@ -2,7 +2,7 @@
 import React from 'react';
 import '../Headers/Header.css'
 import Header from "../Headers/Header";
-
+import PageRoutes from './PageRoutes';
 export default function Dashboard() {
 
 
@@ -14,7 +14,7 @@ export default function Dashboard() {
                     <Header />
                 </div>
                 <div className="Product">
-                    {/* <PageRoutes /> */}
+                    <PageRoutes />
                 </div>
 
         </React.Fragment>
